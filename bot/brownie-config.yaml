@@ -1,0 +1,8 @@
+networks:
+  default: local-mainnet-fork
+
+compiler:
+  solc:
+    optimizer:
+      enabled: true
+      runs: 1000000
